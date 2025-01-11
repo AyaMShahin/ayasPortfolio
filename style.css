@@ -6,6 +6,9 @@
   line-height: 1.5;
   font-family: Trebuchet MS, Lucida Grande, Lucida Sans Unicode, Lucida Sans,
     Tahoma, sans-serif;
+    box-sizing: border-box;
+    --primary-btn-color: #261e13;
+
 }
 :root {
   --h2-font-size: 1.2rem;
@@ -30,6 +33,7 @@ h1{
   -webkit-mask: url(https://i.ibb.co/mBrmH0k/Mf15d.png) center/contain no-repeat;
   background-color: burlywood;
 }
+
 /* About */
 .about{
     background-color: #fcf8f3;
@@ -42,5 +46,9 @@ font-weight: var(--font-weight-900);
 .project-img .img-fluid{
     height: 254px;
 }
+/* Contact */
 
-
+.submit-btn{
+  color: #ffffff;
+  background-color: var(--primary-btn-color);
+}
